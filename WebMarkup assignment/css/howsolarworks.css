@@ -1,0 +1,104 @@
+.grid-header { grid-area: header; }
+.grid-nav { grid-area: nav; }
+.grid-section{ grid-area: body; }
+.grid-footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas:
+    'header header header'
+    'nav nav nav'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'body body body'
+    'footer footer footer';
+  grid-gap: 10px;
+}
+
+.grid-footer {
+  text-align: left;
+}
+
+.grid-section {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-areas:
+        'a2 a1 a3'
+        'a2 a1 a3'
+        'a5 a1 a3'
+        'a5 a1 a4'
+        'a5 a1 a4'
+        'a5 a1 a4'
+        'a5 a6 a6'
+        'ap ap ap';
+    width: 100vw;
+}
+
+#solar-panels{
+    grid-area: a1;
+}
+
+#charge-controller{
+    grid-area: a2;
+}
+
+#battery-system{
+    grid-area: a3;
+}
+
+#dc-power{
+    grid-area: a4;
+}
+
+#inverter{
+    grid-area: a5;
+}
+
+#ac-power{
+    grid-area: a6;
+}
+
+.products{
+    grid-area: ap;
+    display: grid;
+    grid-template-areas:
+        'x y z';
+}
+
+#producta{
+    grid-area: x;
+}
+
+#productb{
+    grid-area: y;
+}
+
+#productc{
+    grid-area: z;
+}
+
+.product-image{
+    display: block;
+    height: 250px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
