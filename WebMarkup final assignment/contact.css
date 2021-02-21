@@ -1,0 +1,104 @@
+/* contact.css */
+
+* {
+	margin:0;
+	padding:0;
+	font-family: arial;
+}
+
+body {
+	background-color: #fff;
+
+}
+
+
+h1{
+	margin: 10px;
+	padding:10px;
+	font-size: 50px;
+	font-family: 'Notable', sans-serif;
+}
+
+
+h2{
+	margin: 10px;
+	padding:10px;
+	font-family: 'Notable', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #eee;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+form {
+	width: 300px;
+	margin-left:200px;
+	margin-top: 70px;
+	margin-bottom:100px;
+}
+
+input {
+	width: 500px;
+}
+
+
+textarea {
+	resize: none;
+	width: 500px;
+	height:300px;
+	
+}
+
+button {
+	width:80px;
+	height:30px;
+}
+
+
+aside {
+	
+	background-color:#FA0;
+	position: fixed;
+	bottom: 10%;
+	right: 0;
+	width: 125px;
+	height:300px;	
+}
+.img-controller {
+	width: 115px;
+	margin-right: 2px;
+	padding:2px;
+}
+.img-inverter {
+	width: 115px;
+	margin-right: 3px;
+	padding:2px;
+}
+.img-battery {
+	width: 115px;
+	margin-right: 3px;
+	padding:2px;
+}
+aside.cookie-statement {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height:1%;
+    background-color: #bd68bd;
+    color: #FFF;
+    opacity: 0.5;
+    padding: 20px;
+    text-align: center;
+    line-height: 16px;
+    text-indent: 20px;
+    z-index: 9999;
+    }
